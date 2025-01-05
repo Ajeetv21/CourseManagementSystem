@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.App {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #007bff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #0056b3;
+}
+
+/* Headings */
+h2 {
+  color: #4922ca;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Forms and Buttons */
+input, select, button {
+  margin: 10px 5px;
+  padding: 8px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* List Items */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+  padding: 10px;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+li button {
+  margin-left: 10px;
+}
+
+/* Flex Layout */
+.flex-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+
+h4 {
+  margin: 10px 0;
+  color: #1c5088;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+ul li button {
+  margin-left: 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul li button:hover {
+  background-color: #cc0000;
+}
